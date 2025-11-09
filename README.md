@@ -9,7 +9,7 @@ Three.js를 활용한 3D 인형뽑기 게임입니다.
 ## 🚀 실행 방법
 
 ### 간단한 방법
-1. `index.html` 파일을 브라우저에서 직접 열기
+1. [여기 클릭해서 실행하기](https://mahyun-dev.github.io/doll-catcher-3d/index.html)
 
 ### 로컬 서버 사용
 ```bash
