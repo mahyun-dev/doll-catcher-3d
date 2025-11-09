@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D 인형뽑기 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>3D 인형뽑기 게임</h1>
+        
+        <div class="game-info">
+            <div class="score-display">
+                <span>점수:</span>
+                <span id="score">0</span>
+            </div>
+        </div>
+
+        <div id="game-container"></div>
+
+        <div class="controls">
+            <div class="control-row">
+                <button id="btn-forward" class="control-btn">▲ 앞으로</button>
+            </div>
+            <div class="control-row">
+                <button id="btn-left" class="control-btn">◄ 왼쪽</button>
+                <button id="btn-grab" class="control-btn grab-btn">⬇ 잡기</button>
+                <button id="btn-right" class="control-btn">► 오른쪽</button>
+            </div>
+            <div class="control-row">
+                <button id="btn-backward" class="control-btn">▼ 뒤로</button>
+            </div>
+            <div class="control-row">
+                <button id="btn-reset" class="control-btn reset-btn">🔄 리셋</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="three.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
